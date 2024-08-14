@@ -32,7 +32,7 @@ export const useCreateUser = () => {
 		) => {
 			queryClient.setQueryData([USERS], context?.previousUsers);
 		},
-		// onSettled = finally da vida
+		// onSettled = like finally
 		onSettled: () => {
 			queryClient.invalidateQueries({ queryKey: [USERS] });
 		},
