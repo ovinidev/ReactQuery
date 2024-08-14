@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Vini",
+      "email": "vini@gmail.com"
+    },
+    {
+      "id": "2",
+      "name": "Renatha",
+      "email": "renatha@gmail.com"
+    },
+    {
+      "id": "3",
+      "name": "Thanos",
+      "email": "thanos@gmail.com"
+    },
+    {
+      "id": "ab98",
+      "email": "superadm@dataside.com.br",
+      "name": "tester"
+    },
+    {
+      "id": "19a8",
+      "email": "admin@artplan.com",
+      "name": "Admin"
+    },
+    {
+      "id": "db95",
+      "email": "superadm@dataside.com.br",
+      "name": "fabio"
+    }
+  ]
+}
