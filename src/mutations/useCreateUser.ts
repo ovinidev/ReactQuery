@@ -2,10 +2,8 @@ import { User } from "@/interface/users";
 import { CreateUserRequest, createUser } from "@api/users";
 import { USERS } from "@constants/queryKeys";
 import { useQueryClient, useMutation } from "@tanstack/react-query";
-import {
-	onMutateOptimistic,
-	onMutateOptimisticRollBack,
-} from "@utils/onMutate";
+import { onMutateOptimistic } from "@utils/onMutateOptimistic";
+import { onMutateOptimisticRollBack } from "@utils/onMutateOptimisticRollBack";
 
 export const useCreateUser = () => {
 	const queryClient = useQueryClient();

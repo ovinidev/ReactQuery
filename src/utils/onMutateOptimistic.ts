@@ -28,17 +28,3 @@ export const onMutateOptimistic = async <T>({
 
 	return { previousQueryData };
 };
-
-export interface OnMutateOptimisticRollBackProps<T> {
-	queryKey: string[];
-	queryClient: QueryClient;
-	previousQueryData?: T[];
-}
-
-export const onMutateOptimisticRollBack = <T>({
-	queryClient,
-	queryKey,
-	previousQueryData,
-}: OnMutateOptimisticRollBackProps<T>) => {
-	queryClient.setQueryData(queryKey, previousQueryData);
-};
